@@ -36,6 +36,7 @@ export default function InitializedMDXEditor({
         codeMirrorPlugin({
           codeBlockLanguages: {
             js: "JavaScript",
+            javascript: "JavaScript",
             css: "CSS",
             bash: "Bash",
             "": "Plain Text",
@@ -49,6 +50,7 @@ export default function InitializedMDXEditor({
             sql: "SQL",
             markdown: "Markdown",
             yaml: "YAML",
+            env: "Bash",
           },
         }),
         linkPlugin(),
